@@ -32,6 +32,7 @@ class ConnectGame:
         :param column_index:
         :return:
         """
+        return False
 
     def is_board_full(self) -> bool:
         for item in self.column_lengths:
